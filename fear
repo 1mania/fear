@@ -114,7 +114,7 @@ function Luxt1.CreateWindow(libName, logoId)
     LuxtLib.Parent = game.CoreGui
     LuxtLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-    Kinda.Name = "Kinda"
+    MainFrame.Name = "Kinda"
     Kinda.Parent = shadow
     Kinda.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     Kinda.Position = UDim2.new(0.048, 0,0.075, 0)
