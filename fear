@@ -114,14 +114,14 @@ function Luxt1.CreateWindow(libName, logoId)
     LuxtLib.Parent = game.CoreGui
     LuxtLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-    MainFrame.Name = "Kinda"
-    Kinda.Parent = shadow
-    Kinda.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-    Kinda.Position = UDim2.new(0.048, 0,0.075, 0)
-    Kinda.Size = UDim2.new(0, 553, 0, 452)
+    MainFrame.Name = "MainFrame"
+    MainFrame.Parent = shadow
+    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
+    MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
     sideHeading.Name = "sideHeading"
-    sideHeading.Parent = Kinda
+    sideHeading.Parent = MainFrame
     sideHeading.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     sideHeading.Size = UDim2.new(0, 155, 0, 452)
     sideHeading.ZIndex = 2
